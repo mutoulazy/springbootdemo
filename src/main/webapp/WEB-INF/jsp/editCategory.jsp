@@ -12,7 +12,7 @@
 </head>
 <body>
     <div style="margin: 0px auto; width: 500px">
-        <form action="updateCategory" method="post">
+        <form action="../category/${category.id}" method="post">
             name: <input name="name" value="${category.name}"> <br>
             <input name="id" type="hidden" value="${category.id}">
             <button type="submit">提交</button>
